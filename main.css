@@ -27,7 +27,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
+html, body {
 	line-height: 1;
 	margin: 0;
 	padding: 0;
@@ -98,14 +98,14 @@ h1 {
 .desc {
 	font-family: 'Gafata', sans-serif;
 	font-size: 24px;
-	line-height: 1.0em;
+	line-height: 1.2em;
 	font-weight: 500;
 }
 
 
 #footer {
-	border-top: 2px solid #eee;
-	background-color: blue;
+	border-top: 2px solid white;
+	background-color: white;
 	height: 40px;
 	left: 0;
 	bottom: 0;
