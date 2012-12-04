@@ -111,7 +111,7 @@ h1 {
 	bottom: 0;
 	position: absolute;
 	width: 100%;
-	/*clear: both;*/
+	clear: both;
 /*	text-align: right;*/
 	/*border-left: 2px solid #eee;
 	border-right: 2px solid #eee;*/
@@ -121,7 +121,6 @@ h1 {
 .info {
 	text-align: right;
 	margin-top: 15px;
-	margin-right: 50px;
 	font-family: Arial, sans-serif;
 	font-weight: bold;
 	color: #817D7D;
