@@ -47,11 +47,31 @@ table {
 }
 
 
+#header {
+	margin-left: auto;
+	margin-right: auto;
+/*	width: 500px;*/
+	height: 15px;
+	position: relative;
+}
+
+h1 {
+	padding-top: 75px;
+	font-family: 'Gafata', sans-serif;
+	font-size: 48px;
+	color: #30998E;
+	text-align: center;
+	font-weight: bold;
+}
+
+
 
 #container {
 	margin-left: auto;
 	margin-right: auto;
 	width: 700px;
+	background-color: #eee;
+/*	background-image: url('http://farm1.staticflickr.com/32/103657967_3b304d2c94.jpg') no-repeat;*/
 }
 
 
@@ -59,10 +79,11 @@ table {
 	margin-top: 180px;
 	text-align: left;
 	margin-left:  25px;
+	padding-bottom: 100px;
 }
 
 .desc {
-	font-family: 'Purple Purse', cursive;
+	font-family: 'Gafata', sans-serif;
 	font-size: 24px;
 	line-height: 1.0em;
 	font-weight: 500;
@@ -70,11 +91,16 @@ table {
 
 
 #footer {
-	width: 100%;
 	border-top: 2px solid #eee;
+/*	background-color: #eee;*/
 	height: 40px;
 	bottom: 0;
 	position: absolute;
+	clear: both;
+	text-align: right;
+	border-left: 2px solid #eee;
+	border-right: 2px solid #eee;
+	width: 696px;
 }
 
 .info {
@@ -102,4 +128,5 @@ a:hover {
 
 .skedaddle {
 	color: #30998E;
+	font-weight: bold;
 }
