@@ -114,18 +114,12 @@ body {
 
 
 #footer {
-	border-top: 2px solid white;
-	background-color: white;
 	height: 40px;
 	left: 0;
 	bottom: 0;
 	position: absolute;
 	width: 100%;
 	clear: both;
-/*	text-align: right;*/
-	/*border-left: 2px solid #eee;
-	border-right: 2px solid #eee;*/
-	/*width: 696px;*/
 }
 
 .info {
@@ -138,7 +132,7 @@ body {
 
 li {
 	display: inline;
-	padding: 10px;
+	padding: 0 10px 0px;
 }
 
 a {
@@ -147,11 +141,11 @@ a {
 }
 
 a:hover {
-	color: #6C100D;
+	color: #7A1F32;
 }
 
 .skedaddle {
-	color: #6C100D;
+	color: #7A1F32;
 	font-weight: bold;
 }
 
