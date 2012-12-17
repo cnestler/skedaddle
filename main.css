@@ -50,7 +50,9 @@ table {
 }
 
 
-
+body {
+	background-color: #eee;
+}
 
 
 #container {
@@ -59,8 +61,10 @@ table {
 	margin-left: auto;
 	margin-right: auto;
 	width: 700px;
-	background-color: #eee;
-/*	background-image: url('http://farm1.staticflickr.com/32/103657967_3b304d2c94.jpg') no-repeat;*/
+	background-color: white;
+	 -moz-box-shadow:   0 0 10px #ccc;
+  	-webkit-box-shadow: 0 0 10px #ccc;
+  	box-shadow:         0 0 10px #ccc;
 }
 
 
@@ -70,19 +74,25 @@ table {
 /*	width: 500px;*/
 	height: 200px;
 	position: relative;
-	background: url("road.jpg") no-repeat center center;
+/*	background: url("road.jpg") no-repeat center center;*/
 	text-align: center;
+/*	opacity: 0.4;*/
 	padding: 10px;
 }
 
-h1 {
-	padding-top: 75px;
-	font-family: 'Gafata', sans-serif;
-	font-size: 48px;
-	color: white;
-	text-align: center;
-	font-weight: bold;
-	text-shadow: 1px 2px black;
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	width: 300px;
+	height: 200px;
+	/*font-family: 'Gafata', sans-serif;*/
+	/*font-size: 48px;*/
+	/*color: white;*/
+	text-align: left;
+/*	font-weight: bold;*/
+	/*text-shadow: 1px 2px black;*/
+	position: relative;
 }
 
 
@@ -137,10 +147,19 @@ a {
 }
 
 a:hover {
-	color: #30998E;
+	color: #6C100D;
 }
 
 .skedaddle {
-	color: #30998E;
+	color: #6C100D;
 	font-weight: bold;
+}
+
+.email {
+	margin-left: 15px;
+	margin-right: auto;
+	width: 300px;
+	height: 30px;
+	font-size: 24px;
+	background-color: #FCFCFC;
 }
