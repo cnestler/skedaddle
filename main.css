@@ -77,19 +77,19 @@ body {
 /*	background: url("road.jpg") no-repeat center center;*/
 	text-align: center;
 /*	opacity: 0.4;*/
-	padding: 10px;
 }
 
 .logo {
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 50px;
-	width: 300px;
+	padding-top: 75px;
+	padding-right: 15px;
+	width: 400px;
 	height: 200px;
 	/*font-family: 'Gafata', sans-serif;*/
 	/*font-size: 48px;*/
 	/*color: white;*/
-	text-align: left;
+	text-align: center;
 /*	font-weight: bold;*/
 	/*text-shadow: 1px 2px black;*/
 	position: relative;
@@ -101,7 +101,7 @@ body {
 	margin-top: 20px;
 	text-align: left;
 	margin-left:  25px;
-	padding-bottom: 10px;
+	padding-bottom: 40px;
 	padding: 10px;
 }
 
@@ -141,11 +141,11 @@ a {
 }
 
 a:hover {
-	color: #7A1F32;
+	color: #2296F8;
 }
 
 .skedaddle {
-	color: #7A1F32;
+	color: #2296F8;
 	font-weight: bold;
 }
 
